@@ -1,0 +1,42 @@
+
+.title-box {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.title-box h1.title, .title-box .h1.title {
+    font-size: 26px;
+    color: #96989a;
+}
+
+.title-box.text-center:before {
+    left: 50%;
+    margin-left: -20px;
+}
+
+
+.title-box:before {
+    background: #bf393e;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    margin: 0 0 -1px;
+    position: absolute;
+    width: 70px;
+}
+
+
+.OurServices h4{
+    text-align:center;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.OurServices p{
+    text-align:center;
+        
+}
+

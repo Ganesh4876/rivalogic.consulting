@@ -1,0 +1,40 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="container mymenu">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" routerLink="/"> <img src="assets/images/logo.png"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']">Home</a></li>
+          <li routerLinkActive="active"><a routerLink="/About">About Us</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Consulting Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Technology Consulting</a></li>
+              <li><a href="#">User Experience Consulting ( UX)</a></li>
+              <li><a href="#">Branding Consulting</a></li>
+              <li><a href="#">Startup Consulting</a></li>
+              <li><a href="#">CXO Advisory Consulting</a></li>
+              <li><a href="#">ERP Consulting</a></li>
+            </ul>
+          </li>
+          <li routerLinkActive="active"><a routerLink="/Engagement">Engagement Models</a></li>
+          <li routerLinkActive="active"><a routerLink="/workshop">Workshops & Seminars</a></li>
+          <li routerLinkActive="active"><a routerLink="/KnowledgeVault">Knowledge Vault</a></li>
+          <li routerLinkActive="active"><a routerLink="/ContactUs">Contact Us</a></li>
+        </ul>
+        <!-- <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul> -->
+      </div>
+    </div>
+    </div>
+  </nav>
+    

@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.page-header {
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.page-header .title {
+    font-weight: normal;
+    padding: 0;
+    color: #bf393e;
+    font-size: 26px;
+}
+.page-header .container {
+    position: relative;
+}
+.page-header .container:before {
+    background: #1e1e1e;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 15px;
+    margin: 0 0 -1px;
+    position: absolute;
+    width: 40px;
+}
+
+.title-box {
+    border-bottom-width: 1px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+.title-box:before {
+    background: #bf393e;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    margin: 0 0 -15px;
+    position: absolute;
+    width: 70px;
+}
+
+.title-box .title {
+    color: #7f7f7f;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 12px 0;
+    padding: 14px 0 0;
+}
+
+.padding11{
+padding-right: 30px;
+padding-left:0px;
+}
